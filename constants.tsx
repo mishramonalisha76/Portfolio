@@ -1,0 +1,2 @@
+export const menueLinksTitle:Array<string> = ["About", "Experience", "Work", "Contact"];
+export const skills:Array<string> = ["React", "Angular", "Typescript", "Javascript","Jasmine","Next","Jest","MERN Stack"];
