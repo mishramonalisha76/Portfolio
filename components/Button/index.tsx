@@ -1,14 +1,13 @@
 import styled from "styled-components";
 //types
-import { ButtonProps, ButtonPropsStyle } from "../../types";
+import { ButtonProps, ButtonPropsStyle } from '../../types';
 
 const ButtonComponent: React.FC<ButtonProps> = ({
   text,
-  link,
-  extraStyles,
+  link
 }) => (
-  <a target="_blank" href={link}>
-    <Button {...extraStyles}>{text}</Button>
+  <a target="_blank" href={link} rel="noreferrer">
+    <Button>{text}</Button>
   </a>
 );
 

@@ -1,11 +1,14 @@
 import styled from "styled-components";
 //styles
 import { TextList } from '../../coreStyles';
+//types
+import { ColorType } from '../../types';
+
 
 const MenuLinkItem: React.FC<{ text: string } & ColorType> = ({
   text,
-  extraStyles,
-}) => <TextList {...extraStyles}>{text}</TextList>;
+  color
+}) => <TextList color={color} >{text}</TextList>;
 
 export default MenuLinkItem;
 

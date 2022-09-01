@@ -7,6 +7,7 @@ import Navbar from "../components/navbar/index";
 import IntoCard from "../components/IntroCard/IntroCard";
 import AboutMeCard from '../components/AboutMeCard/AboutMeCard';
 import ExperienceCard from '../components/ExperienceCard/ExperienceCard';
+import ProjectCard from '../components/projectCard/index';
 
 const Home: NextPage = () => {
   return (
@@ -21,6 +22,7 @@ const Home: NextPage = () => {
         <IntoCard />
         <AboutMeCard/>
         <ExperienceCard/>
+        <ProjectCard/>
       </div>
     </>
   );
